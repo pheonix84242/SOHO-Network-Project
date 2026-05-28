@@ -9,7 +9,7 @@ Three departments: Admin, Finance, Reception in separate VLANs with router-on-a-
 
 | Department | VLAN | Network | Gateway |
 
-| Admin      |  10  | 192.168.10.0/26 | 192.168.10.1 |
+| Admin     | 10 | 192.168.10.0/26 | 192.168.10.1|
 
 | Finance    |  20  | 192.168.10.64/26 | 192.168.10.65 |
 
@@ -22,15 +22,3 @@ Three departments: Admin, Finance, Reception in separate VLANs with router-on-a-
 - Wireless setup
 - IP subnetting
 - Network troubleshooting
-
-## Files
-- `soho-network-project.pkt` - Cisco Packet Tracer file
-- `router-config.txt` - Router configuration
-- `switch-config.txt` - Switch configuration
-
-## How to Upload to GitHub
-1. Go to github.com → New repository
-2. Name: SOHO-Network-Project
-3. Choose Public, add README
-4. Add file → Upload files
-5. Drag entire folder
