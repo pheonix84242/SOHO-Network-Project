@@ -1,0 +1,40 @@
+switch-config
+
+enable
+configure terminal
+hostname SOHO-Switch
+
+vlan 10
+name ADMIN
+exit
+
+vlan 20
+name FINANCE
+exit
+
+vlan 30
+name RECEPTION
+exit
+
+interface range FastEthernet0/1-2
+switchport mode access
+switchport access vlan 10
+exit
+
+interface range FastEthernet0/3-4
+switchport mode access
+switchport access vlan 20
+exit
+
+interface range FastEthernet0/5-6
+switchport mode access
+switchport access vlan 30
+exit
+
+interface FastEthernet0/24
+switchport mode trunk
+switchport trunk allowed vlan 10,20,30
+exit
+
+end
+write memory
