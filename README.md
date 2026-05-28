@@ -14,9 +14,12 @@ Three departments: Admin, Finance, Reception in separate VLANs with router-on-a-
 - Wireless access point with password protection
 
 ## IP Plan
-- Admin: 192.168.10.0/26, Gateway 192.168.10.1
-- Finance: 192.168.10.64/26, Gateway 192.168.10.65
-- Reception: 192.168.10.128/26, Gateway 192.168.10.129
+- Admin: 192.168.10.0/26,
+  Gateway 192.168.10.1
+- Finance: 192.168.10.64/26,
+  Gateway 192.168.10.65
+- Reception: 192.168.10.128/26,
+  Gateway 192.168.10.129
 
 ## Skills Demonstrated
 - VLAN configuration
